@@ -40,7 +40,7 @@ env.hosts = [
 ]
 # 4-1. pem 파일로 로그인을 하기 위해
 env.use_ssh_config = True
-env.key_filename = 'bjm.pem' # AWS 폴더에서 옮겨왔음 -> 동일폴더에 위치
+env.key_filename = '../bjm.pem' # AWS 폴더에서 옮겨왔음 -> 동일폴더에 위치
 
 # 5. 원격지에 세팅될 디렉토리 지정
 project_folder = '/home/{}/{}'.format(env.user, PROJECT_NAME) # REMOTE_USER 
